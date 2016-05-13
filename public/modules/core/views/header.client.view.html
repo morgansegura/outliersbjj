@@ -1,4 +1,51 @@
-<div class="container" data-ng-controller="HeaderController">
+
+<div data-ng-controller="HeaderController">
+	
+	<!-- Following Menu -->
+	<div class="ui fixed menu">
+	  <div class="ui container">
+		  <a class="item" href="/#!/">
+			<img class="logo" src="assets/images/logo.png">
+			Outliers BJJ
+		  </a>
+
+		<a class="item" href="/#!/">Home</a>
+		<a class="item mobile-off">Classes</a>
+		<a class="item mobile-off">Schedule</a>
+		<a class="item mobile-off">Instructors</a>
+		<a class="item mobile-off">Waiver</a> 
+		  
+		  <div class="ui simple dropdown item mobile-on">
+			  Dropdown <i class="dropdown icon"></i>
+			<div class="menu">
+			  <a class="item" href="#">Link Item</a>
+			  <a class="item" href="#">Link Item</a>
+			  <div class="divider"></div>
+			  <div class="header">Header Item</div>
+			  <div class="item">
+				<i class="dropdown icon"></i>
+				Sub Menu
+				<div class="menu">
+				  <a class="item" href="#">Link Item</a>
+				  <a class="item" href="#">Link Item</a>
+				</div>
+			  </div>
+			  <a class="item" href="#">Link Item</a>
+			</div>
+		  </div>
+		  <!--
+		<div class="right menu">
+		  <div class="item">
+			<a ui-route="/signin" ng-class="{active: $uiRoute}" href="/#!/signin">Sign In</a>
+		  </div>
+		  <div class="item">
+			<a ui-route="/signup" ng-class="{active: $uiRoute}" href="/#!/signup">Sign Up</a>
+		  </div>
+		</div>
+-->
+	  </div>
+	</div>
+<!--
 	<div class="navbar-header">
 		<button class="navbar-toggle" type="button" data-ng-click="toggleCollapsibleMenu()">
 			<span class="sr-only">Toggle navigation</span>
@@ -24,12 +71,11 @@
 			</li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right" data-ng-hide="authentication.user">
-			<li ui-route="/signup" ng-class="{active: $uiRoute}">
-				<a href="/#!/signup">Sign Up</a>
+			<li >
+				
 			</li>
 			<li class="divider-vertical"></li>
 			<li ui-route="/signin" ng-class="{active: $uiRoute}">
-				<a href="/#!/signin">Sign In</a>
 			</li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right" data-ng-show="authentication.user">
@@ -55,4 +101,7 @@
 			</li>
 		</ul>
 	</nav>
+	-->
+
 </div>
+

@@ -33,8 +33,14 @@
 
 	<!-- Fav Icon -->
 	<link href="/modules/core/img/brand/favicon.ico" rel="shortcut icon" type="image/x-icon">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
-    
+	
+	<!-- External CSS -->
+	
+	<!-- External JS -->
+
+	<script>
+
+	</script>
 	<!--Application CSS Files-->
 	{% for cssFile in cssFiles %}<link rel="stylesheet" href="{{cssFile}}">{% endfor %}
 
@@ -44,10 +50,10 @@
 	<![endif]-->
 </head>
 
-<body class="ng-cloak pushable">
-	<header data-ng-include="'/modules/core/views/header.client.view.html'" class="ui fixed inverted menu"></header>
+<body class="ng-cloak" class="pushable">
+	<header data-ng-include="'/modules/core/views/header.client.view.html'"></header>
 	<section class="content">
-		<section class="container">
+		<section class="">
 			{% block content %}{% endblock %}
 		</section>
 	</section>
@@ -58,9 +64,9 @@
 	</script>
 
 	<!--Application JavaScript Files-->
-	{% for jsFile in jsFiles %}
-	<script type="text/javascript" src="{{jsFile}}"></script>	{% endfor %} 
-
+	{% for jsFile in jsFiles %}<script type="text/javascript" src="{{jsFile}}"></script>{% endfor %} 	
+	<script type="text/javascript" src="/modules/core/scripts/scripts.js"></script>
+	
 	{% if process.env.NODE_ENV === 'development' %}
 	<!--Livereload script rendered -->
 	<script type="text/javascript" src="http://{{request.hostname}}:35729/livereload.js"></script>

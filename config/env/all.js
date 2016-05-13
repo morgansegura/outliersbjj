@@ -13,8 +13,9 @@ module.exports = {
 	assets: {
 		lib: {
 			css: [
-				'public/lib/bootstrap/dist/css/bootstrap.css',
-				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+				'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700',
+				'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin',
+				'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css'
 			],
 			js: [
 				'public/lib/angular/angular.js',
@@ -25,7 +26,10 @@ module.exports = {
 				'public/lib/angular-sanitize/angular-sanitize.js', 
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
-				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js'
+				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+				'https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js',
+				'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js'
+
 			]
 		},
 		css: [
