@@ -58,7 +58,38 @@ li {
 /*======
  ==== HEADER NAVIGATION
  ======*/
-
+.ui.fixed.menu {
+	border-bottom: 2px solid #f2da0d;
+}
+.logo img {
+	
+}
+.logo-text-large {
+	font-size: 24px;
+	font-family: 'Arial Black', serif;
+	font-weight: bold;
+	letter-spacing: -.04em;
+	text-transform: uppercase;
+	margin-left: 5px;
+}
+.logo-text-large span {
+	font-size: 12px;
+	font-family: 'arial', serif;
+	font-weight: bold;
+	letter-spacing: -.04em;
+	text-transform: uppercase;
+	margin-left: -5px;
+}
+.under-text {
+	font-size: 14px;
+	display: block;
+	font-family: 'Arial', serif;
+	font-weight: bold;
+	text-align: right;
+	color: #333;
+	float: right;
+	display: none;
+}
 
 /*======
  ==== CONTENT
@@ -93,6 +124,10 @@ li {
 /*======
  ==== MAIN PAGE
  ======*/
+	.ui.inverted.segment, 
+	.ui.primary.inverted.segment {
+		background: url('../img/bg-body-drk.jpg') 0 0 repeat;
+	}
  .hidden.menu {
       display: none;
     }
@@ -119,7 +154,7 @@ li {
     }
 
     .ui.vertical.stripe {
-      padding: 8em 0em;
+      padding: 40px 0em;
     }
     .ui.vertical.stripe h3 {
       font-size: 2em;
@@ -189,3 +224,17 @@ li {
         font-size: 1.5em;
       }
     }
+
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
