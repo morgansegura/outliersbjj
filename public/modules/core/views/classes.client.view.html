@@ -1,67 +1,190 @@
 <section data-ng-controller="ClassesController" class="classes">
 	
-  <div class="ui inverted vertical masthead center aligned segment">
 
-    <div class="ui text container">
-      <h1 class="ui inverted header">
-       Classes
-      </h1>
-      <h2> Built on the foundation of self, family and community.</h2>
-      <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
-    </div>
+<div class="row">
 
-  </div>
-	
-	
+    <div class="ui vertical stripe segment container">
+    <!--
+        <div class="ui inverted segment">
+          <button class="ui inverted teal button" href="/#!/schedules">Class Schedules</button>
+          <button class="ui inverted yellow button" href="technical-class">Technical Class</button>
+          <button class="ui inverted yellow button" href="technical-class">Kid's Class</button>
+          <button class="ui inverted yellow button">Womens Schedules</button>
+          <button class="ui inverted yellow button">Open Mat</button>
+        </div>
+            -->
 
-  <div class="row">
+        <!-- Adult Classes -->           
+        <div class="clearfix ui grid">      
+            <div class="twelve wide column">
+                <h3 id="technical-class" class="ui header">Adult Technical Classes.</h3>
+                <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
+            </div>
+            <div class="four wide column">
+                <img class="ui medium rounded image" src="modules/core/img/img-class4.jpg">
+            </div>                 
+        </div> <!-- / Adult Classes -->
+            
+        <!-- Adult Classes Schedule -->
+        <table class="ui inverted red table">
+            <thead>
+                <tr>
+                    <th>Adult Class Schedule</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>                    
+                </tr>          
+            </thead>                   
+            <tbody>                  
+                <tr>
+                  <td><b>Monday</b> <i>7 am - 8 am</i></td>
+                  <td><b>Wednesday</b> <i>7 am - 8 am</i></td>
+                  <td><b>Friday</b> <i>7 am - 8 am</i></td>
+                </tr>
+                <tr>
+                  <td><b>Monday</b> <i>6 pm - 7:30 pm</i></td>
+                  <td><b>Tuesday</b> <i>6 pm - 7:30 pm</i></td>
+                  <td><b>Wednesday</b> <i>6 pm - 7:30 pm</i></td> 
+                  <td><b>Thursday</b> <i>6 pm - 7:30 pm</i></td>                 
+                </tr>           
+            </tbody>
+        </table>  
+        <br>
+        <div class="ui divider"></div>
 
-	<div class="ui vertical stripe segment container">
+        <!-- / Kids Classes -->
+        <div class="clearfix ui grid">
 
-	<div class="ui inverted segment">
-	  <button class="ui inverted teal button" href="/#!/schedules">Class Schedules</button>
-	  <button class="ui inverted yellow button" href="technical-class">Technical Class</button>
-	  <button class="ui inverted yellow button" href="technical-class">Kid's Class</button>
-	  <button class="ui inverted yellow button">Womens Schedules</button>
-	  <button class="ui inverted yellow button">Open Mat</button>
-	</div>
-		
-	<div class="clearfix">
-        <img class="ui medium rounded right floated image" src="modules/core/img/img-class4.jpg">
-		<h3 id="technical-class" class="ui header">Adult Technical Classes.</h3>
-		<p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
-	</div>
-		
-	  <div class="ui divider"></div>
-        
-        
-	<div class="clearfix">
-        <img class="ui medium rounded right floated image" src="modules/core/img/img-class3.jpg">
-	  <h3 id="kids-class" class="ui header">Kid's Classes.</h3>
-	  <p>The kids class is the future at Outliers Jiu-Jitsu. The class is taught by a qualified Ribeiro Jiu-Jitsu instructor, in a child friendly manner. In addition to teaching the children the fundamental technique, the kids class incorporates strength and conditioning to help keep your child strong and healthy. The kids class is not just a bunch of boring instruction and drills, functional games are incorporated into the curriculum for fun and inspiration. At Outliers Jiu-Jitsu, our goal is not only to teach the Jiu-Jitsu technique in a safe and fun manner, but the kids class tries to lift-up the emotional and mental character of the children so they are successful not only on the Jiu-Jitsu mat but in all aspects of life.</p>	
-	</div>
-		
-	  <div class="ui divider"></div>
-        
-	<div class="clearfix">
-        <img class="ui medium right rounded floated image" src="modules/core/img/img-class6.jpg">
-	  <h3 id="womens-class" class="ui header">Women's Classes.</h3>
-	  <p>The kids class is the future at Outliers Jiu-Jitsu. The class is taught by a qualified Ribeiro Jiu-Jitsu instructor, in a child friendly manner. In addition to teaching the children the fundamental technique, the kids class incorporates strength and conditioning to help keep your child strong and healthy. The kids class is not just a bunch of boring instruction and drills, functional games are incorporated into the curriculum for fun and inspiration. At Outliers Jiu-Jitsu, our goal is not only to teach the Jiu-Jitsu technique in a safe and fun manner, but the kids class tries to lift-up the emotional and mental character of the children so they are successful not only on the Jiu-Jitsu mat but in all aspects of life.</p>	
-	</div>
-		
-	  <div class="ui divider"></div>
-        
-	<div class="clearfix">
-        <img class="ui medium right rounded floated image" src="modules/core/img/img-class7.jpg">
-		
-	  <h3 id="open-mat-class" class="ui header">Open Mat.</h3>
-	  <p>The kids class is the future at Outliers Jiu-Jitsu. The class is taught by a qualified Ribeiro Jiu-Jitsu instructor, in a child friendly manner. In addition to teaching the children the fundamental technique, the kids class incorporates strength and conditioning to help keep your child strong and healthy. The kids class is not just a bunch of boring instruction and drills, functional games are incorporated into the curriculum for fun and inspiration. At Outliers Jiu-Jitsu, our goal is not only to teach the Jiu-Jitsu technique in a safe and fun manner, but the kids class tries to lift-up the emotional and mental character of the children so they are successful not only on the Jiu-Jitsu mat but in all aspects of life.</p>	
-	</div>
+            <div class="twelve wide column">
+              <h3 id="kids-class" class="ui header">Kid's Classes.</h3>
+              <p>The kids class is the future at Outliers Jiu-Jitsu. The class is taught by a qualified Ribeiro Jiu-Jitsu instructor, in a child friendly manner. In addition to teaching the children the fundamental technique, the kids class incorporates strength and conditioning to help keep your child strong and healthy. The kids class is not just a bunch of boring instruction and drills, functional games are incorporated into the curriculum for fun and inspiration. At Outliers Jiu-Jitsu, our goal is not only to teach the Jiu-Jitsu technique in a safe and fun manner, but the kids class tries to lift-up the emotional and mental character of the children so they are successful not only on the Jiu-Jitsu mat but in all aspects of life.</p>	
+            </div>
+            <div class="four wide column">
+                <img class="ui medium rounded right floated image" src="modules/core/img/img-class3.jpg">        
+            </div>        
+        </div>
+        <table class="ui inverted green table">
+            <thead>
+                <tr>
+                    <th>Kids Class Schedule</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>                    
+                </tr>          
+            </thead>                 
+            <tbody>
+                <tr>
+                  <td><b>Tuesday</b> <i>4 pm - 5 pm</i></td>
+                  <td><b>Thursday</b> <i>4 pm - 5 pm</i></td>
+                  <td><b>Saturday</b> <i>10 am - 11 am</i></td>                
+                </tr>
+                <tr>
+                  <td><b>Monday</b> <i>5 pm - 6 pm</i></td>
+                  <td><b>Tuesday</b> <i>5 pm - 6 pm</i></td>
+                  <td><b>Wednesday</b> <i>5 pm - 6 pm</i></td> 
+                  <td><b>Thursday</b> <i>5 pm - 6 pm</i></td>                 
+                </tr>
+            </tbody>
+        </table><!-- / Kids Classes -->            
 
+        <br>		
+        <div class="ui divider"></div>
 
-	</div>		  
-  </div>	
+        <!-- Kids MMA Classes -->        
+        <div class="clearfix ui grid">
+          <div class="twelve wide column">
+              <h3 id="kids-class" class="ui header">Kid's MMA Classes.</h3>
+              <p>The kids class is the future at Outliers Jiu-Jitsu. The class is taught by a qualified Ribeiro Jiu-Jitsu instructor, in a child friendly manner. In addition to teaching the children the fundamental technique, the kids class incorporates strength and conditioning to help keep your child strong and healthy. The kids class is not just a bunch of boring instruction and drills, functional games are incorporated into the curriculum for fun and inspiration. At Outliers Jiu-Jitsu, our goal is not only to teach the Jiu-Jitsu technique in a safe and fun manner, but the kids class tries to lift-up the emotional and mental character of the children so they are successful not only on the Jiu-Jitsu mat but in all aspects of life.</p>	
+          </div>
+        <div class="four wide column">
+            <img class="ui medium rounded right floated image" src="modules/core/img/img-class3.jpg">
+        </div>
+  
+        </div><!-- / Kids MMA Classes -->
+        <table class="ui inverted blue table">
+            <thead>
+                <tr>
+                    <th>Kids MMA Class Schedule</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>                    
+                </tr>          
+            </thead>                  
+            <tbody>
+                <tr>
+                  <td><b>Wednesday</b> <i>4 pm - 5 pm</i></td>
+                  <td><b>Friday</b> <i>5 pm - 6 pm</i></td>
+                </tr>
+            </tbody>
+        </table>              
 
-	<br>
+        <br>    
+        <div class="ui divider"></div>
+
+        <!-- Womens Classes -->        
+        <div class="clearfix ui grid">
+            <div class="twelve wide column">
+                <h3 id="womens-class" class="ui header">Women's Classes.</h3>
+                <p>The kids class is the future at Outliers Jiu-Jitsu. The class is taught by a qualified Ribeiro Jiu-Jitsu instructor, in a child friendly manner. In addition to teaching the children the fundamental technique, the kids class incorporates strength and conditioning to help keep your child strong and healthy. The kids class is not just a bunch of boring instruction and drills, functional games are incorporated into the curriculum for fun and inspiration. At Outliers Jiu-Jitsu, our goal is not only to teach the Jiu-Jitsu technique in a safe and fun manner, but the kids class tries to lift-up the emotional and mental character of the children so they are successful not only on the Jiu-Jitsu mat but in all aspects of life.</p>	
+            </div>
+            <div class="four wide column">
+                <img class="ui medium right rounded floated image" src="modules/core/img/img-class6.jpg">        
+            </div>            
+        </div><!-- / Womens Classes -->
+        <table class="ui inverted purple table">
+            <thead>
+                <tr>
+                    <th>Womens Class Schedule</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>                    
+                </tr>          
+            </thead>                  
+            <tbody>
+                <tr>
+                  <td><b>Saturday</b> <i>8:30 am - 10 am</i></td>
+                </tr>
+            </tbody>
+        </table>                   
+            
+
+        <br>    
+        <div class="ui divider"></div>
+
+        <!-- Open Mat -->    
+
+        <div class="clearfix ui grid">         
+          <div class="twelve wide column">
+              <h3 id="open-mat-class" class="ui header">Open Mat.</h3>
+              <p>Open mat is available to any member to work on their "game". The mat is available for sparring, drilling techniques learned during the week, or just analyzing positions. During open mat, music will be playing and the atmosphere is a little more relaxed than a formal class setting.</p>	
+          </div>
+          <div class="four wide column">
+            <img class="ui medium right rounded floated image" src="modules/core/img/img-class7.jpg">  
+          </div>        
+
+        </div><!-- / Open Mat -->
+        <table class="ui inverted brown table">
+            <thead>
+                <tr>
+                    <th>Open Mat Schedule</th>
+                    <th></th>
+                    <th></th>
+                </tr>          
+            </thead>            
+            <tbody>
+            <tr>
+              <td><b>Saturday</b> <i>11 am - 12 pm</i></td>
+            </tr>
+            <tr>
+              <td><b>Saturday</b> <i>6 pm - 7 pm</i></td>
+              <td><b>Sunday</b> <i>6 pm - 7:30 pm</i></td>                
+            </tr>                
+          </tbody>
+        </table>
+
+        </div>		  
+    </div>	
+
+    <br>
 	
 </section>

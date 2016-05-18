@@ -26,9 +26,9 @@ module.exports = {
 				'public/lib/angular-sanitize/angular-sanitize.js', 
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
-				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
-				'https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js',
+				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',              
 				'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js'
+                
 
 			]
 		},

@@ -90,6 +90,9 @@ li {
 	float: right;
 	display: none;
 }
+span.yellow {
+    color: #f2da0d;
+}
 
 /*======
  ==== CONTENT
@@ -118,9 +121,68 @@ li {
 .home .ui.inverted.segment, .home.ui .primary.inverted.segment {
  /*  http://uigradients.com/#  */
 }
+.slick {
+	border-bottom: 2px solid #f2da0d;    
+}
+.slick .arrow {
+    cursor: pointer;
+    background: #000;
+    position: absolute;
+    z-index: 999;
+    padding: 10px 10px 10px 10px;
+    top: 40%;
+}
+.slick .arrow:hover {
+    background: #fff;
+    color: #000;
+}
+.slick .arrow.left {
+    left: 0;
+}
+
+.slick .arrow.right {
+    right: 0;
+}
+
+.logo-head {
+    position: relative;
+}
+.secondary-logo {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    display: block;
+
+        
+        
+    width: 100%;
+    padding: 10px 0;
+}
+
+.main.masthead.segment {
+    min-height: auto;
+    padding: 0;
+    border-bottom: 2px solid #f2da0d !important;
+}
+img.secondary {
+    position: absolute;
+    max-width: 100px;
+}
+
+.google-frame {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+}
+.offset {
 
 
-
+background: #E0EAFC; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E0EAFC , #CFDEF3); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E0EAFC , #CFDEF3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+}
 /*======
  ==== MAIN PAGE
  ======*/
