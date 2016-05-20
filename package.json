@@ -1,12 +1,14 @@
 {
   "name": "objj",
   "description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js",
+  "repository": "https://github.com/morgansegura/outliersbjj.git",
   "version": "0.0.1",
   "author": "Morgan Segura",
   "engines": {
-    "node": "0.10.x",
-    "npm": "1.4.x"
+    "node": "4.4.4",
+    "npm": "2.13.2"
   },
+  "license": "MIT",
   "scripts": {
     "start": "grunt",
     "test": "grunt test",
@@ -49,7 +51,6 @@
     "supertest": "~0.14.0",
     "should": "~4.1.0",
     "grunt-env": "~0.4.1",
-    "grunt-node-inspector": "~0.1.3",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-csslint": "^0.3.1",
